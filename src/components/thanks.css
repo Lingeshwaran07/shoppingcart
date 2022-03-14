@@ -1,0 +1,115 @@
+.thank1{
+    background-color:#343a40 ;
+    color:whitesmoke;
+    padding:20px;
+    margin:0 30px;
+    
+
+}
+
+
+.end{
+    background-color:#343a40;
+    height:100vh;
+    color:white;
+    padding:20px;
+    margin-top:60px;
+    font-size:10px;
+    text-align:center;
+
+
+}
+.thankmain{
+    padding-top: 20px;;
+}
+.thankmiddle{
+    margin: 0 300px;
+    padding-top: 40px;
+}
+th,td{
+    padding:10px;
+}
+tr:nth-child(odd) {
+    background-color: #343a40;
+    color:white;
+  }
+.grandtotal{
+    display: flex;
+    background-color: #343a40;
+    color: white;
+    margin-top: 5px;
+    
+}
+.brandnam{
+    align-self: flex-end;
+}
+.leftend{
+    display: flex;
+    flex:1;
+}
+.rightend{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    justify-content: flex-end;
+}
+.tot{
+    padding-right: 80px;
+}
+.totamt{
+    text-align: center;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 380px){
+    table{
+        width:360px;
+
+
+    }
+    th{
+        font-size: 10px;
+    }
+
+
+   
+    .thankmiddle{
+        margin: 0px 10px;
+        padding-top: 40px;
+        
+    }
+    .end{
+        font-size: px;
+    }
+    .grandtotal{
+        font-size: 10px;
+    }
+    .tot{
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    .totamt{
+        
+        
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .brandnam{
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .leftend{
+        display: flex;
+        flex:1;
+        align-items: center;
+    }
+    .rightend{
+        display: flex;
+        align-items: flex-end;
+        flex: 1;
+        align-items: center;
+    }
+
+
+
+}

@@ -1,0 +1,56 @@
+.despmain{
+    display:flex;
+    width:100%;
+    align-items: center;
+
+}
+.title{
+    flex:2;
+    padding-left: 5px;
+    
+}
+.dropdown-menu{
+    min-width: 370;
+}
+.despimage{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    flex:1;
+}
+@media screen and (max-width: 772px){
+    .search{
+        display:none !important;
+    }
+    
+    
+}
+.deleteicon{
+    flex:1;
+    align-self: center;
+    
+}
+
+.priceicon{
+    padding:20px;
+    width:50px;
+    flex:1;
+    margin-bottom: 0;
+    padding-right: 0px;
+}
+@media screen and (max-width: 380px){
+    .title{
+        font-size: 10px;
+
+
+    }
+    .priceicon{
+        padding-right: 10px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+
+
+
+
+}
