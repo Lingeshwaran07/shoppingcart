@@ -61,7 +61,7 @@ tr:nth-child(odd) {
     padding-right: 50px;
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 500px){
     table{
         width:360px;
 

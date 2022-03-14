@@ -30,7 +30,7 @@
 
 
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 500px){
     .card{
         width:90%;
         padding-bottom: 15px;

@@ -63,7 +63,7 @@
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .maindiv {
     width: 100%;
     flex-direction: column-reverse;
