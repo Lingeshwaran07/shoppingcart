@@ -111,7 +111,7 @@ const Header = () => {
   <HiShoppingCart style={{ fontSize: "25px", color: "white" }} />
                 <Badge>{cartt.length}</Badge>
   </button>
-  <div class="dropdown-menu dropmen" style={window.innerWidth < 381 ?  {minWidth: 250} :{ minWidth: 250,}} >
+  <div class="dropdown-menu dropmen" style={window.innerWidth < 500 ?  {minWidth: 250} :{ minWidth: 370,}} >
   {cartt.length > 0 ? (
                   cartt.map((x, i) => (
                     <div key={i} className="despmain">
